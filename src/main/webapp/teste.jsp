@@ -13,13 +13,11 @@
 
 <p>
 <%
-int x = 2;
-int y = 3;
-int location = x + y;
+try {
+int location = 2;
+} catch(Exception ex) {}
 %>
-<%
-location
-%>
+<%=location==2 ? "Falha" : location%>
 </p>
  
 </BODY>
