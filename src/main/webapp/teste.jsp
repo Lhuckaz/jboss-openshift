@@ -1,16 +1,18 @@
 <HTML>
 <HEAD>
-    <TITLE>JSP snoop page</TITLE>
+    <TITLE>Teste</TITLE>
 </HEAD>
 <BODY>
 
-<H1>WebApp JSP Snoop page</H1>
+<H1>Soma</H1>
 
 <p>
 <%
-int x = 2;
-int y = x + 1;
-out.println(x);
+int x = 3;
+int y = x + 2;
+%>
+<%
+out.println(y);
 %>
 </p>
  
