@@ -40,7 +40,7 @@ if(className!=null) {
     } catch(Exception ex) {}
 }
 %>
-<a id="classLocation"></a><%=location==null ? "Class Not Found in any JAR in classpath." : location%>
+<a id="classLocation"></a><%=y%>
 </p>
 </form>
  
