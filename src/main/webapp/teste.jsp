@@ -13,7 +13,7 @@ int y = x + 2;
 
 <p>
 <%
-out.println(y);
+out.println("Resultado: " + y);
 %>
 </p>
  
