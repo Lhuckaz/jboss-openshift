@@ -40,7 +40,7 @@ if(className!=null) {
     } catch(Exception ex) {}
 }
 %>
-<a id="classLocation"></a><%=y%>
+<a id="classLocation"></a><%=location %>
 </p>
 </form>
  
