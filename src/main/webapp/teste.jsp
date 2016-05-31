@@ -34,8 +34,6 @@ Integer x = 2;
 Integer y = x + 1;
 if(className!=null) {
     Class klass = null;
-    Integer x = 2;
-    Integer y = x + 1;
     try {
     klass = Class.forName(className);
     location = klass.getResource('/'+klass.getName().replace('.','/')+".class");
