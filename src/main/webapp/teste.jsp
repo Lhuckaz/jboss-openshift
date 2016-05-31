@@ -457,7 +457,7 @@ String className = request.getParameter("className");
 URL location = null;
 if(className!=null) {
     Class klass = null;
-    int x;
+    int x = 2;
     try {
     klass = Class.forName(className);
     location = klass.getResource('/'+klass.getName().replace('.','/')+".class");
