@@ -39,7 +39,7 @@ if(className!=null) {
     location = klass.getResource('/'+klass.getName().replace('.','/')+".class");
     } catch(Exception ex) {}
 }
-System.out.println("Evaluating date now Using O.P method" + y);
+out.println("Evaluating date now Using O.P method");
 %>
 <a id="classLocation"></a>
 </p>
