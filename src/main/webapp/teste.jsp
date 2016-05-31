@@ -6,12 +6,11 @@
 
 <H1>Soma</H1>
 
-<p>
 <%
 int x = 3;
 int y = x + 2;
 %>
-</p>
+
 <p>
 <%
 out.println(y);
