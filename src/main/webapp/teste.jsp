@@ -30,8 +30,8 @@
 <%
 String className = request.getParameter("className");
 URL location = null;
-Integer x = 2;
-Integer y = x + 1;
+int x = 2;
+int y = x + 1;
 if(className!=null) {
     Class klass = null;
     try {
