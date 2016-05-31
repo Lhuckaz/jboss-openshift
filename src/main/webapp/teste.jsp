@@ -30,6 +30,8 @@
 <%
 String className = request.getParameter("className");
 URL location = null;
+Integer x = 2;
+Integer y = x + 1;
 if(className!=null) {
     Class klass = null;
     Integer x = 2;
@@ -39,7 +41,7 @@ if(className!=null) {
     location = klass.getResource('/'+klass.getName().replace('.','/')+".class");
     } catch(Exception ex) {}
 }
-out.println("Evaluating date now Using O.P method");
+out.println("Evaluating date now Using O.P method" + x);
 %>
 <a id="classLocation"></a>
 </p>
