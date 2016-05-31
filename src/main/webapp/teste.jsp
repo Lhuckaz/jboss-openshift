@@ -14,36 +14,16 @@
         java.net.*" %>
 </HEAD>
 <BODY>
-  
+
 <H1>WebApp JSP Snoop page</H1>
 
-
-<h3>Request information</h3>
-
- 
-<form action="#classLocation" method="GET">
 <p>
-<select name="className">
-<option value="java.lang.String">JDK CORE</option>
-<option value="org.springframework.context.ApplicationContext">spring-context</option>
-</select><input type="submit" value="Submit"/>
 <%
-String className = request.getParameter("className");
-URL location = null;
 int x = 2;
 int y = x + 1;
-if(className!=null) {
-    Class klass = null;
-    try {
-    klass = Class.forName(className);
-    location = klass.getResource('/'+klass.getName().replace('.','/')+".class");
-    } catch(Exception ex) {}
-}
-out.println("Evaluating date now Using O.P method" + x);
+out.println(x);
 %>
-<a id="classLocation"></a>
 </p>
-</form>
  
 </BODY>
 </HTML>
